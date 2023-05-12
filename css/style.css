@@ -1,0 +1,238 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/* navbar part css start */
+
+.navbar{
+  background: #e7e7e7;
+}
+.navbar-brand{
+  color: #4e4e4e;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #4e4e4e;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all .4s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #1abb9c;
+}
+.navbar-nav .nav-item .nav-link.active{
+  color: #1abb9c;
+}
+
+/* navbar part css end */
+
+/* banner part css start */
+
+.banner{
+  background: url(../Image/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner_text{
+  padding: 190px 0;
+  text-align: center;
+}
+.banner_text h4{
+  color: #f3f3f3;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 45px;
+}
+.banner_text h6{
+  color: #a8a8a8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+.banner_text a{
+  color: #f3f3f3;
+  background: #3f8dbf;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-bottom: 3px solid #3678a3;
+  border-radius: 5px;
+  transition: all .4s;
+}
+.banner_text a:hover{
+  border-bottom: 3px solid #3f8dbf;
+}
+
+/* banner part css end */
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/* service part css start */
+
+.service{
+  padding: 60px 0;
+}
+.ser_content{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.ser_content h6{
+  padding: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.ser_content p{
+  color: #a8a8a8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.border_line{
+  border-bottom: 2px solid #a8a8a8;
+}
+
+/* service part css end */
+
+/* work part css start */
+
+.work_heading h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.work_content img{
+  padding: 10px 0 20px;
+}
+.work_content h4{
+  color: #1f1f1f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.work_content h6{
+  color: #a8a8a8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+.work_content p{
+  color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+/* work part css end */
+
+/* motto part css start */
+
+.motto{
+  background: #efefef;
+}
+.motto_content {
+  text-align: center;
+  padding: 60px 0;
+}.motto_content img{
+  padding-bottom: 30px;
+}
+.motto_content p{
+  color: #a1a1a1;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* motto part css end */
+
+/* footer part css start */
+
+.footer{
+  background: #1f1f1f;
+  padding: 20px 0;
+}
+.footer_heading h4{
+  color: #6c6c6c;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.footer_text p{
+  color: #cacaca;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_icon i{
+  color: #a89574;
+}
+.footer_link a p{
+  color: #cacaca;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_line{
+  padding-top: 30px;
+  border-bottom: 2px solid #a8a8a8;
+}
+
+/* footer part css end */
+
+/* copyright part css start */
+
+.copy{
+  background: #1f1f1f;
+}
+.copy_text p{
+  padding: 30px 0;
+}
+.copy_text p, 
+.copy_text p a{
+  color: #cacaca;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* copyright part css end */
